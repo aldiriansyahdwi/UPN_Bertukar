@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--    <include layout="@layout/fragment_item_list"/>-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:id="@+id/constraint1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="128dp"-->
+<!--            android:layout_marginStart="@dimen/margin_width"-->
+<!--            android:layout_marginEnd="@dimen/margin_width"-->
+<!--            android:layout_marginTop="@dimen/margin_height"-->
+<!--            android:background="@drawable/bg_item">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:id="@+id/cv_item1"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                app:layout_constraintWidth_percent="0.3"-->
+<!--                app:cardCornerRadius="16dp">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_item1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/img_dummy"-->
+<!--                />-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_item1_title"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:text="@string/text_dummy"-->
+<!--                app:layout_constraintStart_toEndOf="@id/cv_item1"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/title_size"-->
+<!--                app:layout_constraintHeight_percent="0.3"-->
+<!--                app:layout_constraintWidth_percent="0.6"-->
+<!--                android:layout_marginStart="@dimen/margin_width"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_item1_desc"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                app:layout_constraintHeight_percent="0.5"-->
+<!--                app:layout_constraintWidth_percent="0.6"-->
+<!--                android:layout_marginStart="@dimen/margin_width"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/tv_item1_title"-->
+<!--                app:layout_constraintStart_toEndOf="@id/cv_item1"-->
+<!--                android:text="@string/text_desc_dummy"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/medium_size"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_item1_user"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="0dp"-->
+<!--                app:layout_constraintHeight_percent="0.2"-->
+<!--                app:layout_constraintWidth_percent="0.6"-->
+<!--                android:layout_marginStart="@dimen/margin_width"-->
+<!--                app:layout_constraintStart_toEndOf="@id/cv_item1"-->
+<!--                app:layout_constraintTop_toBottomOf="@id/tv_item1_desc"-->
+<!--                android:text="@string/text_user_dummy"-->
+<!--                android:textSize="@dimen/medium_size"-->
+<!--                />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>

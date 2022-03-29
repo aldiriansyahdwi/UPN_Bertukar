@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UPN Bertukar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tukar_title">Tukar</string>
+    <string name="profil_title">Profil</string>
+    <string name="text_dummy">Buku Fisika</string>
+    <string name="text_desc_dummy">Ini adalah buku fisika dari penulis james</string>
+    <string name="text_user_dummy">1910511046</string>
+    <string name="nim_profile">1910511046</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>

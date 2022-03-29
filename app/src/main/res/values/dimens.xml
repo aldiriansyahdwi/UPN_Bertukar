@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_width">16dp</dimen>
+    <dimen name="margin_height">12dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="medium_size">12sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="username_profile">28sp</dimen>
+</resources>
