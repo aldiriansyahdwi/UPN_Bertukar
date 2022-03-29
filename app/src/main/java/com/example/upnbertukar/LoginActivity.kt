@@ -23,6 +23,12 @@ class LoginActivity : AppCompatActivity() {
 
         with(binding){
             btnLogin.setOnClickListener {
+                if (txtId.text.toString() != userId) {
+                    txtId.setError("Wrong User Id")
+                }
+                if (txtPass.text.toString() != userPassword){
+                    txtPass.setError("wrong password")
+                }
                 if (txtId.text.toString() == userId && txtPass.text.toString() == userPassword) {
                     val intent = Intent(this@LoginActivity,MainActivity::class.java)
                     startActivity(intent)
